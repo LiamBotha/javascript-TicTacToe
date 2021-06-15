@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTC-8" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div id="container">
+        <h1 id="header-text">Player 1's Turn</h1>
+        <div id="game-board">
+            <button id="block-0" class="cell row-1 col-1" data-index=0></button> 
+            <button id="block-1" class="cell row-1 col-2" data-index=1></button> 
+            <button id="block-2" class="cell row-1 col-3" data-index=2></button>
+            
+            <button id="block-3" class="cell row-2 col-1" data-index=3></button> 
+            <button id="block-4" class="cell row-2 col-2" data-index=4></button> 
+            <button id="block-5" class="cell row-2 col-3" data-index=5></button>
+
+            <button id="block-6" class="cell row-3 col-1" data-index=6></button> 
+            <button id="block-7" class="cell row-3 col-2" data-index=7></button> 
+            <button id="block-8" class="cell row-3 col-3" data-index=8></button> 
+        </div>
+        <button id="restart-btn">Restart</button>
+
+
+        <label> Player 1's Name <input id="p1-name" type="text"/></label>
+        <label> Player 2's Name <input id="p2-name" type="text"/></label>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

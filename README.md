@@ -1,0 +1,1 @@
+Just a simple tic tac toe webpage created using javascript and html while following along with the odin project course.
